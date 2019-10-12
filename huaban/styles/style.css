@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.hr>*,
+#homeApp .navTop .searchView,
+.hr div span {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -80%);
+}
+
+.hr,
+#homeApp,
+#homeApp .navTop,
+.hr div,
+#homeApp .appTxt .text,
+#homeApp .appTxt .notice,
+#homeApp .bottom .tables {
+    width: 100%;
+}
+
+#homeApp .appTxt,
+#homeApp .bottom,
+#homeApp .navTop #fixed .nav,
+#homeApp .footer div {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 980px;
+    max-width: 1200px;
+}
+
+#homeApp,
+#homeApp .navTop .searchView>* {
+    margin: 0 auto;
+}
+
+body {
+    font-size: 100%;
+}
+
+.hr {
+    height: 4em;
+    position: relative;
+}
+
+.hr div {
+    height: 1.5px;
+    background: rgb(180, 180, 180);
+}
+
+.hr div span {
+    position: absolute;
+    color: gray;
+    margin-top: 0.75em;
+    padding: 0.5em 2em;
+    width: fit-content;
+    background: white;
+}
+
+#homeApp .navTop {
+    position: relative;
+    height: 500px;
+    background: url(../images/background2.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.stop {
+    z-index: 9999;
+    background: white;
+    position: fixed;
+}
+
+#fixed {
+    height: 50px;
+    width: 100%;
+}
+
+#homeApp .navTop #fixed .nav {
+    height: 100%;
+}
+
+#homeApp .navTop #fixed .nav>* {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#homeApp .navTop #fixed .nav .nav1 {
+    float: left;
+}
+
+#homeApp .navTop #fixed .nav .nav1>* {
+    margin: 0 1em;
+    color: white;
+}
+
+#homeApp .navTop #fixed .nav .sign>* {
+    width: 60px;
+    height: 60%;
+    margin: 0 5px;
+    color: white;
+    background: none;
+    border: 1px solid white;
+}
+
+#homeApp .navTop #fixed .nav .sign {
+    float: right;
+}
+
+#homeApp .navTop #fixed .nav .in {
+    background: red;
+}
+
+#homeApp .navTop .searchView {
+    text-align: center;
+    color: white;
+}
+
+#homeApp .navTop .searchView #forms {
+    width: 550px;
+    height: 40px;
+    background: white;
+}
+
+#homeApp .navTop .searchView #forms>* {
+    border: none;
+    margin: 6px;
+    height: 30px;
+    outline: none;
+}
+
+#homeApp .navTop .searchView #forms .inp1 {
+    width: 70%;
+    float: left;
+}
+
+#homeApp .navTop .searchView #forms .inp2 {
+    width: 25px;
+    float: right;
+    background: url(../images/search.svg) no-repeat;
+    background-size: 100%;
+}
+
+#homeApp .appTxt .notice {
+    display: table-cell;
+}
+
+#homeApp .appTxt .notice>img {
+    float: left;
+}
+
+#homeApp .bottom .tables {
+    border: none;
+    margin: 1em 0;
+    table-layout: fixed
+}
+
+#homeApp .footer {
+    color: rgb(207, 207, 207);
+    background: rgb(49, 49, 49);
+}
+
+#homeApp .footer div {
+    padding: 1em 0;
+    position: relative;
+}
+
+#homeApp .footer div .rig {
+    border-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+table>* {
+    font-size: 0.9em;
+}
